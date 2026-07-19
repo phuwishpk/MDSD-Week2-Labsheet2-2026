@@ -1,0 +1,15 @@
+# Ignore Flutter code project & IDE settings
+week02_flutter_lab/
+.vscode/
+.idea/
+
+# Ignore everything except Markdown and Images
+*
+!*/
+!*.md
+!screenshots/
+!*.png
+!*.jpg
+!*.jpeg
+!*.webp
+!.gitignore
