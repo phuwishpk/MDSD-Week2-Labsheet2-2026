@@ -1,15 +1,25 @@
-# Ignore Flutter code project & IDE settings
+# Explicitly ignore the entire week02_flutter_lab folder and all its contents
 week02_flutter_lab/
+week02_flutter_lab/**
+
+# Ignore IDE settings
 .vscode/
 .idea/
 
-# Ignore everything except Markdown and Images
+# Ignore all files by default
 *
 !*/
+
+# Only allow Markdown files in root
 !*.md
+
+# Only allow screenshots folder and images
 !screenshots/
+!screenshots/**
 !*.png
 !*.jpg
 !*.jpeg
 !*.webp
+
+# Keep .gitignore
 !.gitignore
